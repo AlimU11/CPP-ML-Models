@@ -8,7 +8,7 @@ public:
     ~LinearRegression();
 
     void fit(const std::vector<std::vector<double>>& X, const std::vector<double>& Y);
-    double predict(const std::vector<std::vector<double>>& X);
+    std::vector<double> predict(const std::vector<std::vector<double>>& X);
 
     std::vector<double> weights() { return _weights; }
     double bias() { return _bias; }

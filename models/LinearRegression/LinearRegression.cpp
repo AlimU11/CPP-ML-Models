@@ -19,12 +19,24 @@ void LinearRegression::fit(const std::vector<std::vector<double>>& X, const std:
     }
 }
 
-double LinearRegression::predict(const std::vector<std::vector<double>>& X) {
-    return 0.0;
+std::vector<double> LinearRegression::predict(const std::vector<std::vector<double>>& X) {
+    std::vector<double> y_pred(X.size());
+
+    for (size_t i = 0; i < X.size(); i++) {
+        y_pred[i] = _predictSingle(X[i]);
+    }
+
+    return y_pred;
 }
 
 double LinearRegression::_predictSingle(const std::vector<double>& X) {
-    return 0.0;
+    double y_pred = _bias;
+
+    for (size_t i = 0; i < X.size(); i++) {
+        y_pred += _weights[i] * X[i];
+    }
+
+    return y_pred;
 }
 
 void LinearRegression::_optimizeUnivariate(const std::vector<std::vector<double>>& X, const std::vector<double>& Y) {
