@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Regression">
+      <UniqueIdentifier>{6ed02e7c-3e3d-47e6-8a97-5f19a620957b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classification">
+      <UniqueIdentifier>{bb066f28-3b30-4215-8d40-acee9bebd3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DL">
+      <UniqueIdentifier>{b44548d4-3faf-4b7d-af83-9cdb4fd1aa6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{d7788982-3837-4aa3-9bf3-df22cfe2fb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{6fd54715-0a8c-4bf2-ae35-d75bac257a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Regression">
+      <UniqueIdentifier>{6b69c6f6-341f-4eb6-86a7-40f82114bee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classification">
+      <UniqueIdentifier>{545593ff-fa16-4606-913b-ebf3d6073ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DL">
+      <UniqueIdentifier>{0e77ee78-87ba-4267-8ccc-96cd08ba299e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DL\LossFunction">
+      <UniqueIdentifier>{77d7acca-b20f-415d-8bdd-02bdb2292a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DL\ActivationFunction">
+      <UniqueIdentifier>{ebaa4007-579c-4df8-929b-78dbdafab378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DL\ActivationFunction">
+      <UniqueIdentifier>{c00276d7-93c1-4401-9447-692b6f79e467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KNN\KNN.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LogisticRegression\LRSolver.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LogisticRegression\LogisticRegression.h">
+      <Filter>Header Files\Classification</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearRegression\LinearRegression.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+    <ClInclude Include="KNN\KNNClassifier.h">
+      <Filter>Header Files\Classification</Filter>
+    </ClInclude>
+    <ClInclude Include="KNN\KNNRegressor.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+    <ClInclude Include="NaiveBayes\NaiveBayes.h">
+      <Filter>Header Files\Classification</Filter>
+    </ClInclude>
+    <ClInclude Include="Perceptron\Perceptron.h">
+      <Filter>Header Files\DL</Filter>
+    </ClInclude>
+    <ClInclude Include="LossFunction\LossFunction.h">
+      <Filter>Header Files\DL\LossFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction\ActivationFunction.h">
+      <Filter>Header Files\DL\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction\LeakyReLU.h">
+      <Filter>Header Files\DL\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction\ReLU.h">
+      <Filter>Header Files\DL\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction\Sigmoid.h">
+      <Filter>Header Files\DL\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction\SoftMax.h">
+      <Filter>Header Files\DL\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction\Tanh.h">
+      <Filter>Header Files\DL\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="LossFunction\SquaredLoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree\DecisionTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree\DecisionTreeClassifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTree\DecisionTreeRegressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForest\RandomForest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForest\RandomForestClassifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForest\RandomForestRegressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearRegression\LinearRegression.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+    <ClCompile Include="LogisticRegression\LogisticRegression.cpp">
+      <Filter>Source Files\Classification</Filter>
+    </ClCompile>
+    <ClCompile Include="KNN\KNNClassifier.cpp">
+      <Filter>Source Files\Classification</Filter>
+    </ClCompile>
+    <ClCompile Include="KNN\KNNRegressor.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+    <ClCompile Include="NaiveBayes\NaiveBayes.cpp">
+      <Filter>Source Files\Classification</Filter>
+    </ClCompile>
+    <ClCompile Include="KNN\KNN.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Perceptron\Perceptron.cpp">
+      <Filter>Source Files\DL</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionTree\DecisionTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionTree\DecisionTreeClassifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionTree\DecisionTreeRegressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForest\RandomForest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForest\RandomForestClassifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForest\RandomForestRegressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
